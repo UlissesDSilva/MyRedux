@@ -1,0 +1,46 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 5px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.Card.blue .header{ color: #fff; background-color: #a0c4ffb3;}
+.Card.blue .content{ color: #fff; background-color: #a0c4ff;}
+
+.Card.purple .header{ color: #fff; background-color: #beb2ffd3;}
+.Card.purple .content{ color: #fff; background-color: #beb2ff;}
+
+.operation input{
+    font-size: 1.8rem;
+    margin: 0 5px 0 5px;
+    width: 70px;
+}
+
+.btn{
+    background-color: #ffadad;
+    width: 80px;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin-left: 5px;
+    box-shadow: 9px 7px 5px -4px rgba(0, 0, 0, 0.43);
+    border-radius: 10px;
+}
+
+.result{
+    height: 99px;
+}
